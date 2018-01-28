@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/2_simple_rooms_and_a_portal.unity
-  isLoaded: 1
-  isActive: 1
