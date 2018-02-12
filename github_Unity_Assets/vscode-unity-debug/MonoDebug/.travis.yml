@@ -1,0 +1,24 @@
+language: csharp
+
+mono:
+  - latest
+
+solution: mono-debug.sln
+
+git:
+  submodules: false
+
+before_install:
+  - git submodule update --init --recursive
+  - cd sdb; make -f Makefile; cd ..
+  - git clone https://github.com/creationix/nvm.git ./.nvm
+  - source ./.nvm/nvm.sh
+  - nvm install 0.12
+  - nvm use 0.12
+
+install:
+  - nuget restore mono-debug.sln
+  - npm install
+
+script:
+  - npm test
