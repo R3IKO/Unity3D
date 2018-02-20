@@ -286,15 +286,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1082830580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47dd58a22b3fff6408f6121a4c0c9a5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c01d86c2a19a0e4284771a40f552d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  hunger: 3.5
-  strength: 10.5
-  isAlive: 1
-  playerName: Dorel
-  thisChar: 35
 --- !u!23 &1082830582
 MeshRenderer:
   m_ObjectHideFlags: 0
